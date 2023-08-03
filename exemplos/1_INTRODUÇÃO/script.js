@@ -1,0 +1,1 @@
+console.log("agora em português; Olá mundo!");
