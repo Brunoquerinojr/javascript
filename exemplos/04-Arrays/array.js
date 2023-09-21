@@ -6,6 +6,13 @@ document.write('<h2 style="color: blue;">Criando um array (ou vetor)</h2><br>');
 
 
 // 1ª Digitação (Aqui)
+document.write ("Os melhores profissionais de F1 são: " +equipe+" <br> ")
+
+document.write ("O melhor chefe de F1 é: " +equipe[0]+" <br> ")
+document.write ("O melhor estrategista de F1 é: " +equipe[1]+" <br> ")
+document.write ("O melhor engenheiro de F1 é: " +equipe[2]+" <br> ")
+document.write ("A equipe n°1 de F1 é: " +equipe[3]+" sem sombra dúvidas <br> ")
+
 
 
 document.write("__________________________________________________________________<br>");
@@ -28,3 +35,5 @@ let equipesF1 = [
 // Exibir Red Bull
 
 // 2ª Digitação (Aqui)
+document.write (`A lider do campeonato é a:  ${equipesF1[0][2]} <br>`)
+document.write (`Outra equipe da F1 é a:  ${equipesF1[1][3]} <br>`)

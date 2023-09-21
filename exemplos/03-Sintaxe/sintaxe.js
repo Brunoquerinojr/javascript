@@ -1,10 +1,10 @@
 // Comentário de 1 linha
 /*Bloco de comentário (Shift + ALT + a) */
 
-// alert("Olá, mundo!");
+// alert("Eu estou programando");
 
 console.log("Olá, mundo!"); // Exibido no: Inspecionar -> Console
-// document.write("Olá, mundo!");
+document.write("Olá, mundo!");
 
 /* Variáveis
 Palavras-chave: var, let e const
@@ -14,7 +14,7 @@ let -> variável de escopo de bloco
 const -> const de escopo de bloco
 */
 
-const nome = "Max Verstappen"; // Constante
+const nome = "Lewis Hamilton"; // Constante
 let ano = 2023; // variável de escopo local
 var curso = "Técnico em Desenvolvimento de sistemas"; // Variável global
 
@@ -24,7 +24,12 @@ document.write('<h2 style="color: blue;">Recuperando valores e concatenação</h
 
 
 // 1ª Digitação (Aqui)
+document.write("<strong>Meu nome é: </strong>"+nome+"<br> ")
+document.write("<strong>O ano é: </strong>"+ano+"<br> ")
+document.write('<strong> Sou: </strong>' +curso+ '<br> ') // Aspas simples não interfere
 
+// Contatenação Template literal (crase)
+document.write(`Eu sou o: <strong>${nome}</strong> e em: <strong>${ano}</strong> esou fazendo: <strong>${curso}</strong> <br>`)
 
 
 document.write("__________________________________________________________________<br>");
@@ -37,7 +42,7 @@ document.write("________________________________________________________________
 document.write('<h2 style="color: blue;">String literal/ Template String (Usando a crase)</h2><br>');
 
 // 2ª Digitação (Aqui)
-
+document.write(`Eu sou o: <strong>${nome}</strong> e em: <strong>${ano}</strong> esou fazendo: <strong>${curso}</strong> <br>`)
 
 document.write("__________________________________________________________________<br>");
 
@@ -64,3 +69,5 @@ let total = preco * quantidade;
 
 
 // 3ª Digitação (Aqui)
+
+document.write (`Temos atualmente no estoque o produto: ${produto} , que custa ${preco} e possuimos ${quantidade} unidades`)
